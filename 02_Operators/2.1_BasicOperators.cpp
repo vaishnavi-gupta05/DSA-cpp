@@ -64,6 +64,36 @@ cout << !( 3<5) << endl; // (!) this turn the result to false
 // 6. Bitwise Operators
 // & | ^ ~ << >>
 
+int bitwiseAnd= 1 & 1;  // '1' , rest are '0'
+//   101   (5)
+// & 011   (3)
+// -----
+//   001   (1)
+
+int bitwiseOr= 0 | 0;   // '0' , rest are '1'
+//   101   (5)
+// | 011   (3)
+// -----
+//   111   (7)
+
+int bitwiseXor= 1 ^ 0;  // '1' , rest are '0'
+//   101   (5)
+// ^ 011   (3)
+// -----
+//   110   (6)
+
+int bitwiseNot= ~ 1;  // '0' --->> ~n = -(n + 1) 
+// 5 = 00000101
+// ~5 = 11111010  (-6)
+
+int leftShift= 5 << 1; // multiply by 2
+// 5 = 00000101
+// 5 << 1 = 00001010 (10)
+
+int rightShift= 5 >> 1; // divide by 2
+// 5 = 00000101
+// 5 >> 1 = 00000010 (2)
+
 
 // 7. Conditional / Ternary Operator
 // condition ? expr1 : expr2

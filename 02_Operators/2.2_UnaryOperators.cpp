@@ -3,7 +3,7 @@
 
 int main() {
 
-//   Unary Operators in C++
+// Unary Operators in C++
 // Unary operators work on a single operand.
 
 // Types of Unary Operators

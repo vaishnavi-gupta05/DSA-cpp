@@ -9,7 +9,6 @@ int main(){
   // FIND DUBLICATE ELEMENTS
 
   vector<int> arr= {1,2,1,2,3,4,1,6,7,8,8,4,3};
-  vector<int> valueofj ;
   
   for(int i=0; i<arr.size(); i++){
     bool alreadySeen= false;
@@ -28,7 +27,6 @@ int main(){
     for(int j=i+1; j<arr.size(); j++){
       if (arr[i]==arr[j]){
         cout<<"("<<arr[i]<<","<<arr[j]<<")"<<endl;
-        valueofj.push_back(arr[j]);
         break;
       }
     }

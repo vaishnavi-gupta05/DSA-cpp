@@ -3,6 +3,7 @@
 using namespace std;
 
 // SORT 0's AND 1's IN AN ARRAY
+// two pointers approach
 
 vector<int> sortedArr(vector<int> arr){
   int s=0;

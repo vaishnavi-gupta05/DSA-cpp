@@ -13,7 +13,7 @@ int main(){
     {27,29,37,48}
   };
 
-    int row=3;
+  int row=3;
   int col=4;
   int search;
   cout<< "enter the element to be searched: "<< endl;

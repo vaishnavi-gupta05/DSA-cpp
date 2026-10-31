@@ -28,7 +28,7 @@ int main(){
     for(int j=i+1; j<arr.size(); j++){
       if (arr[i]==arr[j]){
         cout<<"("<<arr[i]<<","<<arr[j]<<")"<<endl;
-        valueofj.push_back(j);
+        valueofj.push_back(arr[j]);
         break;
       }
     }

@@ -6,7 +6,7 @@ int main(){
 
   // FIND THE ODD OCCURING ELEMENT (WHERE ALL OTHER ELEMENTS OCCUR EVEN NUMBER OF TIMES EXCEPT ONE) IN AN ARRAY USING BINARY SEARCH--->>>>>
 
-  vector<int> arr={1,1,2,2,3,3,4,4,5,5,6,6,8};
+  vector<int> arr={1,1,1,1,2,2,3,3,4,5,5,6,6,8,8};
 
   int s=0;
   int e= arr.size()-1;
